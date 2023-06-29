@@ -4,4 +4,7 @@ module.exports = {
   list: async () => {
     return films;
   },
+  create: async () => {
+    throw Error("Hay un error al momento de ingresar la pelicula");
+  },
 };
